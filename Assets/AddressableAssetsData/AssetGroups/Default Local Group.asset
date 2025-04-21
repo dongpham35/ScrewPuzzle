@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 0d580fd2dee20fc429082645c7addb6f
+  m_SerializeEntries:
+  - m_GUID: 47cc745d5cdc0ab479c3367018382762
+    m_Address: Assets/_Game/Scripts/Items/ScriptableObjects/Avatars/KienTT_Avatar.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ItemProperty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 629a4d0c99438ec4880c6564429a2bef
+    m_Address: Assets/_Game/Scripts/Items/ScriptableObjects/Frame/Blue_Frame.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ItemProperty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6a803fd4f4115d648b38adb7a994d2e5
+    m_Address: Assets/_Game/Scripts/Items/ScriptableObjects/Avatars/TruongVM_Avatar.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ItemProperty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7968a90cb5832f74ca6ff397f95e0a51
+    m_Address: Assets/_Game/Scripts/Items/ScriptableObjects/Frame/Pubble_Frame.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ItemProperty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 806f1ef7cbf486c43b803907fa7d0815
+    m_Address: Assets/_Game/Scripts/Items/ScriptableObjects/Avatars/TungND_Avatar.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ItemProperty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: abf527c5486ebf246a934b510dc9dc3b
+    m_Address: Assets/_Game/Scripts/Items/ScriptableObjects/Avatars/DaoDV_Avatar.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ItemProperty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f550f9aabb7ed444da3567ffbe7325bb
+    m_Address: Assets/_Game/Scripts/Items/ScriptableObjects/Frame/Green_Frame.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ItemProperty
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fbeaead62c7287d49b79a9f963257c5a
+    m_Address: Assets/_Game/Scripts/Items/ScriptableObjects/Avatars/ManhPT_Avatar.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ItemProperty
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: df0c91a34e6e9724282f6d5688665261, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: e87f3f88f4a88644baaccab8dcb8ca7c, type: 2}
+    - {fileID: 11400000, guid: eeba326725253c74da3cdd70ffe7834f, type: 2}
