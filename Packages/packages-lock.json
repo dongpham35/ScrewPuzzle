@@ -1,9 +1,21 @@
 {
   "dependencies": {
+    "com.cysharp.unitask": {
+      "version": "file:D:/Package/UniTask-master/src/UniTask/Assets/Plugins/UniTask",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
+    },
     "com.dbrizov.naughtyattributes": {
       "version": "file:C:/Users/Admin/Downloads/NaughtyAttributes-master/NaughtyAttributes-master/Assets/NaughtyAttributes",
       "depth": 0,
       "source": "local",
+      "dependencies": {}
+    },
+    "com.unity.2d.sprite": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
       "dependencies": {}
     },
     "com.unity.addressables": {

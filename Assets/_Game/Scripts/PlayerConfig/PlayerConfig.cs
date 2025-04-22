@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public static class PlayerConfig
 {
@@ -21,21 +22,25 @@ public static class PlayerConfig
 [Serializable]
 public class Player
 {
+    public string Name;
     public int    Level;
     public int    Gold;
     public int    Energy;
     public int    AvatarId;
     public int    FrameId;
     public Sprite AvatarSprite;
+    public Sprite FrameSprite;
     
     public Player()
     {
+        Name         = $"Hehe_{Random.Range(0, 100)}";
         Level        = 1;
         Gold         = 0;
         Energy       = 10;
         AvatarId     = 0;
         FrameId      = 0;
         AvatarSprite = null;
+        FrameSprite  = null;
     }
     
     public Player(PlayerData playerData)
@@ -46,6 +51,7 @@ public class Player
         AvatarId = playerData.AvatarId;
         FrameId = playerData.FrameId;
         AvatarSprite = playerData.AvatarSprite;
+        FrameSprite = playerData.FrameSprite;
     }
 }
 

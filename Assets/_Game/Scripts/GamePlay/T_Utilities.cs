@@ -1,79 +1,39 @@
-using System.Collections;
+using System;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.AddressableAssets;
 
-public static class T_Utilities
+public static partial class T_Utitilies
 {
-    #region MAIN_METHODS
-
-    public static bool GetPlayerData(PlayerData playerData)
-    {
-        PlayerConfig.player = new Player(playerData);
-        if (PlayerConfig.player == null)
-        {
-#if UNITY_EDITOR
-            Debug.LogError("PlayerConfig.player is null");
-#endif
-            return false;
-        }
-        return true;
-    }
-
-    public static void CreateNewPlayer(PlayerData playerData, Sprite avatarSprite = null)
-    {
-        PlayerConfig.player = new Player();
-        PlayerPrefs.SetString(PlayerPrefKey.InitializedPlayer, "true");
-        playerData.Level        = PlayerConfig.player.Level;
-        playerData.Gold         = PlayerConfig.player.Gold;
-        playerData.Energy       = PlayerConfig.player.Energy;
-        playerData.AvatarId     = PlayerConfig.player.AvatarId;
-        playerData.FrameId      = PlayerConfig.player.FrameId;
-        playerData.Energy       = DefaultValue.MaxEnergyDefault;
-        playerData.AvatarSprite = avatarSprite;
-    }
-
-    public static void LoadAddressableData()
-    {
-        Addressables.LoadAssetsAsync<ItemProperty>("dataSO", so =>
-        {
-        }).Completed += handle =>
-        {
-            List<ItemProperty> allSO = new List<ItemProperty>(handle.Result);
-            foreach (var item in allSO)
-            {
-                switch ((int)item.ItemType)
-                {
-                    case 0:
-                    {
-                        DataManager.AvatarList.Add(item);
-                        break;
-                    }
-                    case 1:
-                    {
-                        DataManager.FrameList.Add(item);
-                        break;
-                    }
-                    case 2:
-                    {
-                        DataManager.SupportList.Add(item);
-                        break;
-                    }
-                }
-            }
-        };
-    }
-
-    #endregion
+    
 }
 
-public static class DefaultValue
+[Serializable]
+public class ComponentMesh
 {
-    public const int MaxEnergyDefault = 10; 
+    public Stack<Color> ColorStack = new Stack<Color>();
+    public MeshRenderer MeshRenderer;
 }
 
-public static class PlayerPrefKey
+[Serializable]
+public class CubeTargetData
 {
-    public static string InitializedPlayer = "InitializedPlayer";
+    public int TargetFill;
+    public Color TargetColor;
+}
+
+[Serializable]
+public class SupportData
+{
+    public int    SupportId;
+    public int    SupportPrice;
+    public int    SupportLevelUnlock;
+    public Sprite SupportSprite;
+}
+
+[Serializable]
+public class LevelData
+{
+    public int LevelId;
+    public int CurrentcyLevel;
+    public List<ComponentMesh> ComponentMeshList = new List<ComponentMesh>();
 }

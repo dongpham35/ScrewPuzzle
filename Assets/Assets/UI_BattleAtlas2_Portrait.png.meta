@@ -1,0 +1,2076 @@
+fileFormatVersion: 2
+guid: 0e69765fcd4dbdf45ad2a3c8ef59d724
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 931
+        width: 66
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd6052e7c5f3fea4eb913fe174ac81ea
+      internalID: 797448094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_1
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 952
+        width: 57
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ad5f4f756ceca4693d82e8473ce2a6
+      internalID: 569722271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 909
+        width: 94
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 344a955e180b39e4da0f390d5f1b3833
+      internalID: -547834414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_3
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 944
+        width: 58
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4caa7e6220587cc4cba44e559413d99d
+      internalID: 982682259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_4
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 955
+        width: 77
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde9685d6e299ae4c8b4cfa1c45532ce
+      internalID: 1748756127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_5
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 929
+        width: 100
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6abd91a4c5bd8164c97082d51c209ce9
+      internalID: 1022112735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_6
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 924
+        width: 100
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e0a036df53a9b44933f00d6be521d3
+      internalID: 1199010666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_7
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 911
+        width: 84
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 148d1a42306121e4c8911d25a13ce8e9
+      internalID: -892634968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_8
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 976
+        width: 73
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c27ba0b6ee84e2a429cd2a23036eaa70
+      internalID: -1093270296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_9
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 911
+        width: 119
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85cb9116024260846b29643cfa4d29b6
+      internalID: 692483545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_10
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 942
+        width: 118
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e3b2010c883f840aecfc3d4991f5fb
+      internalID: -1502355880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_11
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 919
+        width: 66
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cff88207f15cafd4fa31821762261dc2
+      internalID: -365102690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_12
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 906
+        width: 78
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa16a19e51850a84dbfc16e33f72b331
+      internalID: 99633421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_13
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 914
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038c2f738ad580543b7f29fa9328d0b4
+      internalID: -463601546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_14
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 917
+        width: 65
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19bee98ac0cea4a49b2cbe2977e96dad
+      internalID: 771108131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_15
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 932
+        width: 109
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ca79858b84dca45b7fb3bde5fe2255
+      internalID: 1691695039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_16
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 932
+        width: 109
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63bb1fd83771cd140bdc398421760b88
+      internalID: 1716061719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_17
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 922
+        width: 49
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851fceca51c1f5c44acdca6d91e78a82
+      internalID: -544430000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_18
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 919
+        width: 45
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f851848d1bd5d3648aaca57fff804a3b
+      internalID: -892483579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_19
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 910
+        width: 38
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e83e8e3c542d340abdedeb8cf80cc3
+      internalID: 124129020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_20
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 902
+        width: 60
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d50433c42c6b840b0b0feef291fb1f
+      internalID: -668082443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_21
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 909
+        width: 38
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4010cc9cae55941bf18913cf6a6db1
+      internalID: 985332675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_22
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 915
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a1edf5f9646f134e9de36728dc806c0
+      internalID: -1253446980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_23
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 838
+        width: 8
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d931cb4d7b4ed447a1281152ad374c4
+      internalID: -206447806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_24
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 810
+        width: 31
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac8c591c747c1442a3203145682a70c
+      internalID: -1599296262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_25
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 825
+        width: 8
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d0e9c857ee6d346ba0c4c25524c5d8
+      internalID: 1559269183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_26
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 821
+        width: 8
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7df05f637065cb4d83bb88bc9a2f464
+      internalID: -1221952843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_27
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 778
+        width: 103
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e254ee8ac1a2e1746853c1b6c9e2e19d
+      internalID: 181092584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_28
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 864
+        width: 53
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bdee07ae6919d44498b747157a7b4e8
+      internalID: 714035755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_29
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 863
+        width: 53
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecaf81ff391c27a4c8d3b99fc3652791
+      internalID: 1232499829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_30
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 802
+        width: 114
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c937c588783da4546bf472adc9f0347c
+      internalID: -99166567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_31
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 763
+        width: 363
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dd6565d688e9b74f82d25ef9d7942fc
+      internalID: -1575853359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_32
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 773
+        width: 119
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d6218efbefec9349bd7341265db9fae
+      internalID: -1373214432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_33
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 778
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 268fe104f674a1340832a1fea67e7b5f
+      internalID: 43490231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_34
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 817
+        width: 7
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d531da67bdfda9a4290da3d59355f6f2
+      internalID: 1202151665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_35
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 810
+        width: 7
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de87b29e551ad642a2ea928365a11a0
+      internalID: 1334580834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_36
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 809
+        width: 6
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc695940def1bd46b7e857ad6f177d0
+      internalID: -1250931858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_37
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 802
+        width: 11
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738345a3e7fd9a948bce58ee957e9b8d
+      internalID: -1009032404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 677
+        width: 113
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc03e85f7b15e1045aa43337b8734cc5
+      internalID: -1250069748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_39
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 576
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ce5b6f93b04a342ae42ed70892cd25
+      internalID: 1096863877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_40
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 574
+        width: 131
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5474d835731ad4ba61fe1dfb472033
+      internalID: -497392702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_41
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 766
+        width: 53
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d6f018ef43951448daa8241aaf7c42
+      internalID: -1656358167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_42
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 766
+        width: 53
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6560b999a89f6924d95c301592564ccf
+      internalID: 1266321452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_43
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 575
+        width: 129
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c809a3eb5e3db4cad6439398b5a220
+      internalID: -195168528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_44
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 446
+        width: 512
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db066f32c533c844860a7da059540c6
+      internalID: -951861107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_45
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 712
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7480711d28c66644484c0e08a94b883b
+      internalID: -843104553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_46
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 705
+        width: 58
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d567343fd066ab43963bf3c5af946a2
+      internalID: -1495421510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_47
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 713
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a3dd3ce08db164083c81e995b27812
+      internalID: 834292322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_48
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 712
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc79c3a83528a54dafe838239e21039
+      internalID: 1944895444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_49
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 569
+        width: 100
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac451600779ec0e4b8bbd0f385e4c053
+      internalID: 1362781994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_50
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 477
+        width: 356
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54516daec3d06994f8fe586186886491
+      internalID: 1707019894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_51
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 497
+        width: 100
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8566b0fd673bb4a82f00916698cf85
+      internalID: 2110719916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_52
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 497
+        width: 100
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94cc4820e130f8d48a52f7d5bdad08d7
+      internalID: -723756800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_53
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 497
+        width: 100
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a490610dce8669942b7fa34a03d1212e
+      internalID: -1220008028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_54
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 493
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d4cd3d87ced479478321ae54031d4ad
+      internalID: 558036384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_55
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 432
+        width: 100
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc822e40cfa8a24a8f209673565086b
+      internalID: -1641558976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_56
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 432
+        width: 100
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05efc78190e3b414585a426914846e6c
+      internalID: -1910921727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_57
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 432
+        width: 100
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49930913458989a4f97cca5ba45e0df8
+      internalID: -1221254391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_58
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 419
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d944fa28887f84ba2ffc756421bc1f
+      internalID: -1144361269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_59
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 379
+        width: 87
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba99a38b847acf4980feb9a0b1aa804
+      internalID: -1150542950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_60
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 340
+        width: 94
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7517a1f11ddb2dc4b9d22056a1533fc9
+      internalID: 2005416399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_61
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 340
+        width: 94
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b16ed6b0ddd45a44da5f4bbae0105e46
+      internalID: 512342725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_62
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 367
+        width: 100
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 661a750f84f3fc042bb9fac5d8d197fb
+      internalID: 884321121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_63
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 367
+        width: 100
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d8433b573c4272458782b184259eff3
+      internalID: -550509301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_64
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 367
+        width: 100
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e7457d29fb52064cab9cb29d44180d9
+      internalID: -984821563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_65
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 348
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 918da5dc7e4bba14ab65278d27eb3450
+      internalID: 545668722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_66
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 355
+        width: 62
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea20b8defa994c4fb748d5c27e94d43
+      internalID: 200953558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_67
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 302
+        width: 100
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a684c45b77c3a4ca94cef848a9a4fd
+      internalID: -104751782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_68
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 302
+        width: 100
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4beca8191bd48c44a524bf097484504
+      internalID: 345571864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_69
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 302
+        width: 100
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a8dca84b898eb4e8e43fcf5b553438
+      internalID: 1598042116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_70
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 237
+        width: 100
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd36bc300fde9d549b271c3d5f91b66a
+      internalID: -12006935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_71
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 237
+        width: 100
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b31a501df2f3149939c573d49ed024
+      internalID: -903707486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_72
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 237
+        width: 100
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6865274d812b1c418b8bb58b28fa262
+      internalID: 1225901351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_73
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 186
+        width: 94
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eaa4267f7cd72840a65d59efcf2f97f
+      internalID: 1630222796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_74
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 186
+        width: 94
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f0b6e7705def5f49821c2ee1b792b2f
+      internalID: 216499484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_75
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 172
+        width: 100
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b24584209ccc046ab9b80f2bc6ac0c
+      internalID: -1151580042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_76
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 172
+        width: 100
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 544d8a95bd1e74e4da146c743d6f92d7
+      internalID: 86272992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_77
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 107
+        width: 100
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb8351acfdc33944a83e6abfab7ba3b
+      internalID: 1116257816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_78
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 107
+        width: 100
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8569028202423484e8f8b059d6a7d7a4
+      internalID: 1564490771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_79
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 120
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0316a6bcd40aeee4a84dbbb7ed3c3f78
+      internalID: -997714519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_80
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 107
+        width: 80
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 747dde1816bfb5e4c8cb1d4eadc6a65f
+      internalID: 1544853884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_81
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb1ad8a110eda41419f25259b7fa27ea
+      internalID: -2073287005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_82
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa51606f93b7894f9183313f2c77dac
+      internalID: -1384046321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_83
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 0
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28486723305f0214aaccb902df75e860
+      internalID: -1088200610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_84
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 21
+        width: 76
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb0a8fb9969fdaa47900ecf036cfe6d9
+      internalID: 440898466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_85
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 21
+        width: 76
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe2599bb9bc26de418d09be53889b107
+      internalID: -368754508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_86
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 10
+        width: 112
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31060abe81047854ebe46a6323be5116
+      internalID: -1698731701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_BattleAtlas2_Portrait_87
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 14
+        width: 102
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e9d97b75094a02449c6de2666a08452
+      internalID: -1136524969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 1fee4f6ab4b4d884dbec1ca68a2dba00
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      UI_BattleAtlas2_Portrait_0: 797448094
+      UI_BattleAtlas2_Portrait_1: 569722271
+      UI_BattleAtlas2_Portrait_10: -1502355880
+      UI_BattleAtlas2_Portrait_11: -365102690
+      UI_BattleAtlas2_Portrait_12: 99633421
+      UI_BattleAtlas2_Portrait_13: -463601546
+      UI_BattleAtlas2_Portrait_14: 771108131
+      UI_BattleAtlas2_Portrait_15: 1691695039
+      UI_BattleAtlas2_Portrait_16: 1716061719
+      UI_BattleAtlas2_Portrait_17: -544430000
+      UI_BattleAtlas2_Portrait_18: -892483579
+      UI_BattleAtlas2_Portrait_19: 124129020
+      UI_BattleAtlas2_Portrait_2: -547834414
+      UI_BattleAtlas2_Portrait_20: -668082443
+      UI_BattleAtlas2_Portrait_21: 985332675
+      UI_BattleAtlas2_Portrait_22: -1253446980
+      UI_BattleAtlas2_Portrait_23: -206447806
+      UI_BattleAtlas2_Portrait_24: -1599296262
+      UI_BattleAtlas2_Portrait_25: 1559269183
+      UI_BattleAtlas2_Portrait_26: -1221952843
+      UI_BattleAtlas2_Portrait_27: 181092584
+      UI_BattleAtlas2_Portrait_28: 714035755
+      UI_BattleAtlas2_Portrait_29: 1232499829
+      UI_BattleAtlas2_Portrait_3: 982682259
+      UI_BattleAtlas2_Portrait_30: -99166567
+      UI_BattleAtlas2_Portrait_31: -1575853359
+      UI_BattleAtlas2_Portrait_32: -1373214432
+      UI_BattleAtlas2_Portrait_33: 43490231
+      UI_BattleAtlas2_Portrait_34: 1202151665
+      UI_BattleAtlas2_Portrait_35: 1334580834
+      UI_BattleAtlas2_Portrait_36: -1250931858
+      UI_BattleAtlas2_Portrait_37: -1009032404
+      UI_BattleAtlas2_Portrait_38: -1250069748
+      UI_BattleAtlas2_Portrait_39: 1096863877
+      UI_BattleAtlas2_Portrait_4: 1748756127
+      UI_BattleAtlas2_Portrait_40: -497392702
+      UI_BattleAtlas2_Portrait_41: -1656358167
+      UI_BattleAtlas2_Portrait_42: 1266321452
+      UI_BattleAtlas2_Portrait_43: -195168528
+      UI_BattleAtlas2_Portrait_44: -951861107
+      UI_BattleAtlas2_Portrait_45: -843104553
+      UI_BattleAtlas2_Portrait_46: -1495421510
+      UI_BattleAtlas2_Portrait_47: 834292322
+      UI_BattleAtlas2_Portrait_48: 1944895444
+      UI_BattleAtlas2_Portrait_49: 1362781994
+      UI_BattleAtlas2_Portrait_5: 1022112735
+      UI_BattleAtlas2_Portrait_50: 1707019894
+      UI_BattleAtlas2_Portrait_51: 2110719916
+      UI_BattleAtlas2_Portrait_52: -723756800
+      UI_BattleAtlas2_Portrait_53: -1220008028
+      UI_BattleAtlas2_Portrait_54: 558036384
+      UI_BattleAtlas2_Portrait_55: -1641558976
+      UI_BattleAtlas2_Portrait_56: -1910921727
+      UI_BattleAtlas2_Portrait_57: -1221254391
+      UI_BattleAtlas2_Portrait_58: -1144361269
+      UI_BattleAtlas2_Portrait_59: -1150542950
+      UI_BattleAtlas2_Portrait_6: 1199010666
+      UI_BattleAtlas2_Portrait_60: 2005416399
+      UI_BattleAtlas2_Portrait_61: 512342725
+      UI_BattleAtlas2_Portrait_62: 884321121
+      UI_BattleAtlas2_Portrait_63: -550509301
+      UI_BattleAtlas2_Portrait_64: -984821563
+      UI_BattleAtlas2_Portrait_65: 545668722
+      UI_BattleAtlas2_Portrait_66: 200953558
+      UI_BattleAtlas2_Portrait_67: -104751782
+      UI_BattleAtlas2_Portrait_68: 345571864
+      UI_BattleAtlas2_Portrait_69: 1598042116
+      UI_BattleAtlas2_Portrait_7: -892634968
+      UI_BattleAtlas2_Portrait_70: -12006935
+      UI_BattleAtlas2_Portrait_71: -903707486
+      UI_BattleAtlas2_Portrait_72: 1225901351
+      UI_BattleAtlas2_Portrait_73: 1630222796
+      UI_BattleAtlas2_Portrait_74: 216499484
+      UI_BattleAtlas2_Portrait_75: -1151580042
+      UI_BattleAtlas2_Portrait_76: 86272992
+      UI_BattleAtlas2_Portrait_77: 1116257816
+      UI_BattleAtlas2_Portrait_78: 1564490771
+      UI_BattleAtlas2_Portrait_79: -997714519
+      UI_BattleAtlas2_Portrait_8: -1093270296
+      UI_BattleAtlas2_Portrait_80: 1544853884
+      UI_BattleAtlas2_Portrait_81: -2073287005
+      UI_BattleAtlas2_Portrait_82: -1384046321
+      UI_BattleAtlas2_Portrait_83: -1088200610
+      UI_BattleAtlas2_Portrait_84: 440898466
+      UI_BattleAtlas2_Portrait_85: -368754508
+      UI_BattleAtlas2_Portrait_86: -1698731701
+      UI_BattleAtlas2_Portrait_87: -1136524969
+      UI_BattleAtlas2_Portrait_9: 692483545
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

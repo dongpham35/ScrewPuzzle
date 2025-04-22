@@ -10,10 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0328c8dad7aa44c4aa816991211dcdc6, type: 3}
-  m_Name: PlayerData
+  m_Name: 
   m_EditorClassIdentifier: 
-  Level: 0
+  Name: 
+  Level: 1
   Gold: 0
-  Energy: 0
-  AvatarId: 0
+  Energy: 10
+  AvatarId: 1
   FrameId: 0
+  AvatarSprite: {fileID: 21300000, guid: 9f6fcaadcacbd17499e66454624a2ea5, type: 3}
+  FrameSprite: {fileID: 83807857, guid: 83b3686064872a34ab5d80c6ad7e3b05, type: 3}

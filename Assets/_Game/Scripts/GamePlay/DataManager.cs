@@ -4,7 +4,7 @@ using UnityEngine;
 
 public static class DataManager
 {
-    public static List<ItemProperty> AvatarList = new List<ItemProperty>();
-    public static List<ItemProperty> FrameList = new List<ItemProperty>();
-    public static List<ItemProperty> SupportList = new List<ItemProperty>();
+    public static Dictionary<int, ItemPropertySO> AvatarList  = new Dictionary<int, ItemPropertySO>();
+    public static Dictionary<int, ItemPropertySO> FrameList   = new Dictionary<int, ItemPropertySO>();
+    public static Dictionary<int, ItemPropertySO> SupportList = new Dictionary<int, ItemPropertySO>();
 }
