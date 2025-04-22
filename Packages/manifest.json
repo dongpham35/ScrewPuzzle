@@ -1,7 +1,5 @@
 {
   "dependencies": {
-    "com.cysharp.unitask": "file:D:/Package/UniTask-master/src/UniTask/Assets/Plugins/UniTask",
-    "com.dbrizov.naughtyattributes": "file:C:/Users/Admin/Downloads/NaughtyAttributes-master/NaughtyAttributes-master/Assets/NaughtyAttributes",
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.addressables": "1.22.3",
     "com.unity.collab-proxy": "2.7.1",
