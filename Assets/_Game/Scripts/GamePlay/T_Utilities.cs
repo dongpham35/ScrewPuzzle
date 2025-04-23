@@ -8,10 +8,10 @@ public static partial class T_Utitilies
 }
 
 [Serializable]
-public class ComponentMesh
+public class MeshObjectData
 {
+    public int          TotalLayer;
     public Stack<Color> ColorStack = new Stack<Color>();
-    public MeshRenderer MeshRenderer;
 }
 
 [Serializable]
@@ -35,5 +35,7 @@ public class LevelData
 {
     public int LevelId;
     public int CurrentcyLevel;
-    public List<ComponentMesh> ComponentMeshList = new List<ComponentMesh>();
+    public List<MeshObjectData> MeshObjectList = new List<MeshObjectData>();
+    public List<Color> ColorList = new List<Color>();
+    public List<int> ColorCountList = new List<int>();
 }

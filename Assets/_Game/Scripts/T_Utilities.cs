@@ -106,6 +106,13 @@ public static class PlayerPrefKey
 public static class AnimatorHashKey
 {
     public const string IndexBottomHashKey = "IndexBottom";
+    public const string ShowHideWool = "ShowHideWool";
+}
+
+public static class ShaderPropertiesLib
+{
+    public const string Color   = "_Color";
+    public const string Display = "_Display";
 }
 
 [Serializable]

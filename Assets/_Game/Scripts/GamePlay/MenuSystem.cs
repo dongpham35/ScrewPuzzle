@@ -1,6 +1,7 @@
 using TMPro;
 using UnityEditor.Animations;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class MenuSystem : Singleton<MenuSystem>
@@ -24,9 +25,13 @@ public class MenuSystem : Singleton<MenuSystem>
     public TMP_Text HomeText;
     public TMP_Text RankText;
     
-    [Header("Btn event")]
+    [Header("Btn Group")]
     public Button AvatarBtn;
     public Button SettingBtn;
+    public Button ShopBtn;
+    public Button HomeBtn;
+    public Button RankBtn;
+    public Button PlayBtn;
     
     [Header("UI")]
     public GameObject AvatarUI;
@@ -42,6 +47,10 @@ public class MenuSystem : Singleton<MenuSystem>
     {
         AvatarBtn.onClick.AddListener(ChangeInformationUI);
         SettingBtn.onClick.AddListener(ChangeSettingUI);
+        ShopBtn.onClick.AddListener(ShopButton);
+        HomeBtn.onClick.AddListener(HomeButton);
+        RankBtn.onClick.AddListener(RankButton);
+        PlayBtn.onClick.AddListener(PlayButton);
         ChangeMenu(MenuType.Home);
     }
 
@@ -57,6 +66,10 @@ public class MenuSystem : Singleton<MenuSystem>
     {
         AvatarBtn.onClick.RemoveListener(ChangeInformationUI);
         SettingBtn.onClick.RemoveListener(ChangeSettingUI);
+        ShopBtn.onClick.RemoveListener(ShopButton);
+        HomeBtn.onClick.RemoveListener(HomeButton);
+        RankBtn.onClick.RemoveListener(RankButton);
+        PlayBtn.onClick.RemoveListener(PlayButton);
     }
 
     #endregion
@@ -101,6 +114,26 @@ public class MenuSystem : Singleton<MenuSystem>
     private void ChangeSettingUI()
     {
         SettingUI.SetActive(true);
+    }
+    
+    private void ShopButton()
+    {
+        ChangeMenu(MenuType.Shop);
+    }
+    
+    private void HomeButton()
+    {
+        ChangeMenu(MenuType.Home);
+    }
+    
+    private void RankButton()
+    {
+        ChangeMenu(MenuType.Rank);
+    }
+    
+    private void PlayButton()
+    {
+        SceneManager.LoadScene(1);
     }
     #endregion
 }

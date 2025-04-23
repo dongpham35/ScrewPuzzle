@@ -20,8 +20,9 @@ public class GamePlayUI : MonoBehaviour
     public TMP_Text   TargetPass;
     public GameObject QueueTarget;
     public GameObject CurrentTarget;
-    
-    [Header("ZomButtonGroup")]
+
+    [Header("ZomButtonGroup")] 
+    public Button ResetBtn;
     public Button ZomInBtn;
     public Button ZomOutBtn;
     
@@ -33,8 +34,7 @@ public class GamePlayUI : MonoBehaviour
     private int    _totalTargetPassed = 0;
     private Camera _mainCamenra;
     #endregion
-
-
+    
     #region UNITY_METHODS
 
     private void Awake()
@@ -89,13 +89,13 @@ public class GamePlayUI : MonoBehaviour
     }
     #endregion
 
-
     #region HELPER
     private void RegisterButton()
     {
         TopUpGoldBtn.onClick.AddListener(OnTopUpGold);
         SettingBtn.onClick.AddListener(OnSettingButton);
         ZomInBtn.onClick.AddListener(OnZomInButton);
+        ResetBtn.onClick.AddListener(OnResetButton);
         ZomOutBtn.onClick.AddListener(OnZomOutButton);
         for (int i = 0; i < SupportBuyBtn.Count; i++)
         {
@@ -110,6 +110,7 @@ public class GamePlayUI : MonoBehaviour
         TopUpGoldBtn.onClick.RemoveListener(OnTopUpGold);
         SettingBtn.onClick.RemoveListener(OnSettingButton);
         ZomInBtn.onClick.RemoveListener(OnZomInButton);
+        ResetBtn.onClick.RemoveListener(OnResetButton);
         ZomOutBtn.onClick.RemoveListener(OnZomOutButton);
         for (int i = 0; i < SupportBuyBtn.Count; i++)
         {
@@ -133,6 +134,10 @@ public class GamePlayUI : MonoBehaviour
         Time.timeScale = 0f;
     }
     
+    private void OnResetButton()
+    {
+        
+    }
     private void OnZomInButton()
     {
         
