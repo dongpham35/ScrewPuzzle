@@ -554,14 +554,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e94c4a7e09630f4492309dba6ba343f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  LevelId: 0
+  IrgnoreLevelId: 1
   LevelData:
     LevelId: 0
     CurrentcyLevel: 0
-    ComponentMeshList: []
+    MeshObjectList: []
     ColorList: []
     ColorCountList: 
-  MeshObjectDatas: []
-  WoolControls: []
+  MeshObjectDatas:
+  - TotalLayer: 0
+  - TotalLayer: 0
+  - TotalLayer: 0
+  - TotalLayer: 0
+  - TotalLayer: 0
+  - TotalLayer: 0
+  - TotalLayer: 0
+  - TotalLayer: 0
+  - TotalLayer: 0
+  - TotalLayer: 0
+  WoolControls:
+  - {fileID: 491218555}
+  - {fileID: 1946829712}
+  - {fileID: 684908009}
+  - {fileID: 824490263}
+  - {fileID: 366976888}
+  - {fileID: 125530114}
+  - {fileID: 398579169}
+  - {fileID: 868414393}
+  - {fileID: 230948525}
+  - {fileID: 1400400483}
 --- !u!1 &213397577
 GameObject:
   m_ObjectHideFlags: 0
