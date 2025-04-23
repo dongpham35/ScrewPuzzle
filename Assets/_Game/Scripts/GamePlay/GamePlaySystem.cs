@@ -30,8 +30,6 @@ public class GamePlaySystem : MonoBehaviour
     private GamePlayMeshController _meshController;
 
     private List<Color> _currentColorList      = new ();
-    private List<int>   _currentColorCountList = new ();
-    private List<Stack<Color>> _totalColorStack = new ();
     public  int RemainColor { get; private set; }
     public  int TotalColor  { get; private set; }
     
@@ -141,25 +139,36 @@ public class GamePlaySystem : MonoBehaviour
         {
             _levelData = level;
         }
-        _currentColorList      = _levelData?.ColorList;
-        _currentColorCountList = _levelData?.ColorCountList;
-        
-        if (_currentColorCountList != null)
+        if(_levelData == null)
         {
-            TotalColor             = _currentColorCountList.Sum();
-            RemainColor            = TotalColor;
+            #if UNITY_EDITOR
+            Debug.LogError($"LevelId {PlayerConfig.player.Level} not found in LevelList");
+            #endif
+            return;
         }
-        
+        foreach (Color t in _levelData.ColorList)
+        {
+            for(int j = 0; j< _levelData.ColorCountList.Count;j++)
+            {
+                _currentColorList.Add(t);
+            }
+        }
         //Load mesh object
         
     }
 
     private void GenRandomColor()
     {
-        for(int i = 0; i < _meshController.MeshObjectDatas.Count; i++)
+        //Merge color list
+        for (int i = 0; i < _currentColorList.Count; i++)
         {
-            var randomIndex = Random.Range(0, _currentColorList.Count);
-            if(_currentColorCountList[randomIndex] <= 0) con
+            int randomIndex = Random.Range(i, _currentColorList.Count);
+            (_currentColorList[i], _currentColorList[randomIndex]) = (_currentColorList[randomIndex], _currentColorList[i]);
+        }
+        for (int i = 0; i < _meshController.MeshObjectDatas.Count; i++)
+        {
+            if(_meshController.MeshObjectDatas[i].ColorStack.Count == _meshController.MeshObjectDatas[i].TotalLayer) continue;
+            _meshController.MeshObjectDatas[i].ColorStack.Push(_currentColorList[i]);
         }
     }
 
