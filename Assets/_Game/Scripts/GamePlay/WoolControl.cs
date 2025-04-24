@@ -25,10 +25,6 @@ public class WoolControl : MonoBehaviour
     private Color _currentColor;
     #endregion
 
-    
-    
-
-
     #region MAIN_METHODS
     public void InitMesh(MeshObjectData meshObjectDataData)
     {

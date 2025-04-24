@@ -1,35 +1,42 @@
 using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
 
 public class GamePlaySystem : Singleton<GamePlaySystem>
 {
     #region <====================| Properties |====================>
 
-    [Header("Objects")] public Transform  SpawnPoint;
+    [Header("Objects")] 
+    public Transform  SpawnPoint;
     public                     GameObject ModelPrefab;
+    
+    [Header("Target")]
+    public List<CubeTargetControl> CurrentCubeTargets = new List<CubeTargetControl>();
+    public List<QueueTargetControl> CurrentQueueTargets = new List<QueueTargetControl>();
 
-    [Header("Data relation rotation object")] public float   Friction            = 3f;                    // The speed of decay of inertia
-    public                                           Vector2 RotationSensitivity = new Vector2(1f,   1f); // Giới hạn tốc độ xoay
-    public                                           Vector2 AccelerationRange   = new Vector2(0.1f, 1f); // Giới hạn tốc độ xoay
-    public                                           float   RotationSpeed       = 5f;                    // Tốc độ xoay
-    public                                           float   SmoothingTime       = 0.05f;
-    private                                          float   _acceleration;
-    private                                          float   _timerAfterMouseUp   = 0f;
-    private                                          float   _timerAfterMouseDown = 0f;
-    private                                          bool    _isDragging          = false;
-    private                                          Vector2 _previousDelta       = Vector2.zero;
-    private                                          Vector3 _lastMousePosition;
+    [Header("Data relation rotation object")] 
+    public float   Friction         = 3f;                        // The speed of decay of inertia
+    public  Vector2 RotationSensitivity = new Vector2(1f,   1f); // Giới hạn tốc độ xoay
+    public  Vector2 AccelerationRange   = new Vector2(0.1f, 1f); // Giới hạn tốc độ xoay
+    public  float   RotationSpeed       = 5f;                    // Tốc độ xoay
+    public  float   SmoothingTime       = 0.05f;
+    private float   _acceleration;
+    private float   _timerAfterMouseUp   = 0f;
+    private float   _timerAfterMouseDown = 0f;
+    private bool    _isDragging          = false;
+    private Vector2 _previousDelta       = Vector2.zero;
+    private Vector3 _lastMousePosition;
 
     private Camera     _mainCamera;
     private GameObject _targetObject;
 
     private GamePlayMeshController _meshController;
+
+    private int _currentCubeTargetCount = 0;
     
 
     private const float SmoothyImpactTimeAfterMouseUp  = 0.5f; // Thời gian tác động sau khi nhả chuột
     private const float ObjectImpactTimeAfterMouseDown = 0.3f; // Thời gian tác động sau khi nhả chuột
-
+    private const int   CubeTargetCountDefault         = 2;
     #endregion <=============================================>
 
 
@@ -47,6 +54,7 @@ public class GamePlaySystem : Singleton<GamePlaySystem>
         _meshController?.LoadcolorForMesh();
         _timerAfterMouseUp = 0;
         _acceleration      = AccelerationRange.x;
+        UnLockCubeTarget(CubeTargetCountDefault);
     }
 
     private void Update()
@@ -133,27 +141,41 @@ public class GamePlaySystem : Singleton<GamePlaySystem>
 
     public void OnClickMesh(Color colorClick)
     {
-        if (GamePlayUI.Instance.CheckColorTarget(colorClick))
+        for(int i = 0;i< CurrentCubeTargets.Count; i++)
         {
-            GamePlayUI.Instance.AddChildForCubeTarget();
-#if UNITY_EDITOR
-            Debug.Log($"Has color target");
-#endif
+            if (CurrentCubeTargets[i].CheckColor(colorClick))
+            {
+                CurrentCubeTargets[i].AddChild(i);
+                return;
+            }
         }
-        else
+        for (int i = 0; i < CurrentQueueTargets.Count; i++)
         {
-#if UNITY_EDITOR
-            Debug.Log($"No color target");
-#endif
+            if (CurrentQueueTargets[i]
+               .AddChild(colorClick))
+            return;
         }
+#if UNITY_EDITOR
+        Debug.Log($"You lost");
+#endif
     }
 
-    public void GenNewCube()
+    public void GenNewCube(int indexCube)
     {
         
         GamePlayUI.Instance.DisplayNewCube();
     }
-    
+
+    public void UnLockCubeTarget(int newCubeCount)
+    {
+        if(newCubeCount <= _currentCubeTargetCount) return;
+        for (int i = 0; i < CurrentCubeTargets.Count; i++)
+        {
+            CurrentCubeTargets[i].SetActiveCubeTarget(i + 1 <= newCubeCount);
+        }
+
+        _currentCubeTargetCount = newCubeCount;
+    }
 
     #endregion
 }

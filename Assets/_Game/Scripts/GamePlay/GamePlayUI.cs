@@ -8,6 +8,11 @@ public class GamePlayUI : Singleton<GamePlayUI>
 {
 
     #region PROPERTIES
+
+    [Header("EndgameUI")]
+    public GameObject LostUI;
+    public GameObject WinUI;
+    
     [Header("Currentcy")]
     public TMP_Text GoldCount;
     public Button TopUpGoldBtn;
@@ -18,9 +23,7 @@ public class GamePlayUI : Singleton<GamePlayUI>
 
     [Header("Target")] 
     public TMP_Text   TargetPass;
-    public List<CubeTargetControl>  CurrentTarget;
-    public List<QueueTargetControl> QueueTarget;
-
+    
     [Header("ZomButtonGroup")] 
     public Button ResetBtn;
     public Button ZomInBtn;
@@ -35,6 +38,7 @@ public class GamePlayUI : Singleton<GamePlayUI>
 
     private int    _totalTargetPassed    = 0;
     private int    _indexColorCubeTarget = -1;
+    private int _indexColorQueueTarget = 0;
     private Camera _mainCamenra;
     #endregion
     
@@ -63,32 +67,14 @@ public class GamePlayUI : Singleton<GamePlayUI>
     #endregion
 
     #region MAIN_METHODS
-
-    public void AddChildForCubeTarget()
-    {
-        if(_indexColorCubeTarget == -1) return;
-        CurrentTarget[_indexColorCubeTarget].AddChild();  
-    }
+    
 
     public void DisplayNewCube()
     {
          
     }
-
-    public bool CheckColorTarget(Color color)
-    {
-        if (_targetColorList == null || _targetColorList.Count == 0) return false;
-        for (var i = 0; i < _targetColorList.Count; i++)
-        {
-            if (_targetColorList[i] == color)
-            {
-                _indexColorCubeTarget = i;
-                return true;
-            }
-        }
-        _indexColorCubeTarget = -1;
-        return false;
-    }
+    
+    
 
     private void Init()
     {
