@@ -4,7 +4,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class GamePlayUI : MonoBehaviour
+public class GamePlayUI : Singleton<GamePlayUI>
 {
 
     #region PROPERTIES
@@ -18,8 +18,8 @@ public class GamePlayUI : MonoBehaviour
 
     [Header("Target")] 
     public TMP_Text   TargetPass;
-    public GameObject QueueTarget;
-    public GameObject CurrentTarget;
+    public List<CubeTargetControl>  CurrentTarget;
+    public List<QueueTargetControl> QueueTarget;
 
     [Header("ZomButtonGroup")] 
     public Button ResetBtn;
@@ -31,14 +31,18 @@ public class GamePlayUI : MonoBehaviour
     public List<Button> SupportBuyBtn = new();
     public List<Button> SupportUsedBtn = new();
 
-    private int    _totalTargetPassed = 0;
+    private List<Color> _targetColorList = new ();
+
+    private int    _totalTargetPassed    = 0;
+    private int    _indexColorCubeTarget = -1;
     private Camera _mainCamenra;
     #endregion
     
     #region UNITY_METHODS
 
-    private void Awake()
+    public override void Awake()
     {
+        base.Awake();
         _mainCamenra = Camera.main;
     }
 
@@ -59,6 +63,32 @@ public class GamePlayUI : MonoBehaviour
     #endregion
 
     #region MAIN_METHODS
+
+    public void AddChildForCubeTarget()
+    {
+        if(_indexColorCubeTarget == -1) return;
+        CurrentTarget[_indexColorCubeTarget].AddChild();  
+    }
+
+    public void DisplayNewCube()
+    {
+         
+    }
+
+    public bool CheckColorTarget(Color color)
+    {
+        if (_targetColorList == null || _targetColorList.Count == 0) return false;
+        for (var i = 0; i < _targetColorList.Count; i++)
+        {
+            if (_targetColorList[i] == color)
+            {
+                _indexColorCubeTarget = i;
+                return true;
+            }
+        }
+        _indexColorCubeTarget = -1;
+        return false;
+    }
 
     private void Init()
     {

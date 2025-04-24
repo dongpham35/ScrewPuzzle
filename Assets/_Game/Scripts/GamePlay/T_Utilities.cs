@@ -11,6 +11,7 @@ public static partial class T_Utitilies
 public class MeshObjectData
 {
     public int          TotalLayer;
+    public Color        HightestColor;
     public Stack<Color> ColorStack = new Stack<Color>();
 }
 
@@ -35,7 +36,7 @@ public class LevelData
 {
     public int LevelId;
     public int CurrentcyLevel;
-    public List<MeshObjectData> MeshObjectList = new List<MeshObjectData>();
+    // public List<MeshObjectData> MeshObjectList = new List<MeshObjectData>();
     public List<Color> ColorList = new List<Color>();
     public List<int> ColorCountList = new List<int>();
 }

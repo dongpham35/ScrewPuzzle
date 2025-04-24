@@ -200,6 +200,7 @@ GameObject:
   - component: {fileID: 8789424080747739625}
   - component: {fileID: 6283232585358122740}
   - component: {fileID: 4092309049204461412}
+  - component: {fileID: 8422254296406323555}
   m_Layer: 0
   m_Name: CubeTarget
   m_TagString: Untagged
@@ -286,6 +287,22 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!114 &8422254296406323555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6482138687200324021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c37ea5a915fdeb4469b935f11a9fc67a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetChildren:
+  - {fileID: 5671885272924674183}
+  - {fileID: 33726538255431816}
+  - {fileID: 4831110298722998998}
 --- !u!1 &6493533240256430326
 GameObject:
   m_ObjectHideFlags: 0

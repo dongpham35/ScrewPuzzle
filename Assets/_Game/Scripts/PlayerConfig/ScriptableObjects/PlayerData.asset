@@ -16,7 +16,7 @@ MonoBehaviour:
   Level: 1
   Gold: 0
   Energy: 10
-  AvatarId: 1
-  FrameId: 0
-  AvatarSprite: {fileID: 21300000, guid: 9f6fcaadcacbd17499e66454624a2ea5, type: 3}
-  FrameSprite: {fileID: 83807857, guid: 83b3686064872a34ab5d80c6ad7e3b05, type: 3}
+  AvatarId: 4
+  FrameId: 1
+  AvatarSprite: {fileID: 21300000, guid: 506e06799bea5c1459dad30d19e58cf0, type: 3}
+  FrameSprite: {fileID: 1893499906, guid: 83b3686064872a34ab5d80c6ad7e3b05, type: 3}
